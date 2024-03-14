@@ -31,7 +31,7 @@ WORKDIR /home/USER
 
 RUN mkdir hacking \
 && cd hacking \
-&& curl -SL https://raw.githubusercontent.com/uia-worker/is105misc/master/sem01v24/pawned.sh > pawned.sh \
+&& curl -SL https://raw.githubusercontent.com/uia-worker/is105misc/master/sem02v24/pawned.sh > pawned.sh \
 && chmod 764 pawned.sh \
 && cd ..
 
